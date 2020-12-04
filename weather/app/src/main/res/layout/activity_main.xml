@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="147dp"
+        android:text="  天气预报"
+        android:textSize="80sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="查询" />
+
+        <EditText
+            android:id="@+id/research"
+            android:layout_width="274dp"
+            android:layout_height="match_parent"
+            android:inputType="number" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/myconcern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/stat_notify_sync"
+        android:drawableRight="@android:drawable/ic_input_add"
+        android:text="我的关注" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+</LinearLayout>
